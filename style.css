@@ -1,0 +1,568 @@
+body{
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+/*============= header ===========*/
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-image: url('images/background-header.jpg');
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#header-content{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(225,225,225, .9);
+}
+
+#header-content img.logo{
+    height: 100%;
+    float: left;
+}
+
+#header-content a{
+    display: block;
+    float: left;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 13%;
+    text-decoration: none;
+    padding-top: 40px;
+}
+#header-content a:hover{
+    font-size: 20px;
+    color: #B42C87;
+}
+#header a.active{
+    color:  #B42C87;
+}
+/*================= main =============*/
+#main{
+    margin-top: 100px;
+    padding: 5px;
+}
+#specials h1{
+    text-align: center; 
+    color: #B42C87; 
+    font-size: 70px;
+}
+
+#slide-text{
+    font-size: 40px;
+    color:  rgba(0, 0, 0, 0.1);
+}
+
+/*=========== specials ========*/
+#specials-content-clothes{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.content-clothes-slide{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    margin: auto;
+    height: 370px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.col{
+    display: block;
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+}
+.col-content {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border: 2px  #D7DBDD;
+    border-radius: 20px;
+}
+.col-content:hover{
+    display: block;
+    width: 105%;
+    height: 104%;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+}
+.col-content img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.col-content h4{
+    text-align: center;
+}
+
+#instores{
+    display: block;
+    width: 100%;
+    height: 140px;
+    background-color: #3B3B3B;
+    overflow: auto;
+}
+#instores img{
+    width: 152px;
+    height: 140px;
+}
+
+#trading{
+    display: block;
+    width: 100%;
+    height: 240px;
+    background-color: #4A484A;
+}
+
+#trading-hours fieldset{
+    width: 90%;
+    border-radius: 10px;
+    border-color: #4D9426;
+}
+#trading-hours legend{
+    color: #4D9426;
+}
+
+#trading-hours td{
+    font-size: 18px;
+    color: #4D9426;
+}
+
+
+#footer{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #B42C87;
+}
+#footer a{
+    text-decoration: none;
+    text-align: center;
+}
+#footer a h1{
+    color: #09ADBC;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+
+
+/*=============== store page ============*/
+
+#store h1{
+    text-align: center;
+}
+
+#store{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 115px;
+}
+
+#store-type{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin: auto;
+    height: 370px;
+    padding: 10px;
+}
+
+.image-shades{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20, 21, .3);
+    border-radius: 10px;
+    background-size: cover;
+}
+.image-shades:hover{
+     background-color: rgba(21, 20, 21, .1);
+}
+.store-col1{
+    background-image: url('images/clothes-stores.jpg');
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+.store-col1:hover{
+    width: 103%;
+    height: 105%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#store-grocery{
+    background-image: url('images/grocery-stores.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    height: 50%;
+    width: 98.5%;
+    margin-left: 8px;
+}
+#store-grocery:hover{
+    width: 99.5%;
+    height: 51%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.store-col3{
+    background-image: url('images/renturante-stores.jpg');
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.store-col3:hover{
+    width: 103%;
+    height: 105%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#store-tech{
+    background-image: url('images/electronic-store.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+#store-tech:hover{
+    width: 98.5%;
+    height: 101%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#store-movies{
+    background-image: url('images/cinema.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+#store-movies:hover{
+    width: 98.5%;
+    height: 101%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#store-col4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    height: 50%;
+    width: 100%;
+}
+
+/*============= store list ===========*/
+
+#store-list{
+ 
+}
+
+.store-list-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.store-list-content a{
+    display: block;
+    border-radius: 10px;
+    height: 100px;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #F48006;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #09ADBC;
+}
+.store-list-content a:hover{
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       background-color: #F8F9F9;
+}
+.store-list-content a img{
+    height: 90px;
+    margin-top: 5px;
+    width: 190px;
+}
+.store-name{
+    margin-top: 100px;
+}
+.store-list-content img.right{
+    float: right;
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 50px;
+}
+
+
+
+/*====================== movie page ======================*/
+#movie-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    height: 750px;
+    padding: 10px;
+    width: 100%;
+}
+
+#sk-logo{
+    margin: auto;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#movies-title-text{
+    margin-left: 10px;
+}
+/*============== movie ========*/
+#movie-col1{
+    border-right: 1px solid;
+    width: 90%;
+    height: 100%;
+}
+#movie-col1 h1{
+    text-align: center;
+}
+
+#mov-info-col{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    height: 100%;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+.gallery a{
+    text-decoration: none;
+}
+.desc {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+.desc span{
+    font-size: 14px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
+
+#movie-col2-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+/*===================== about =====================*/
+#about{
+    color: gray;
+    font-size: 30px;
+}
+#the-mall{
+    font-size: 30px;
+    font-weight: 600;
+}
+#about-content p{
+    font-size: 18px;
+    color:gray;
+}
+.nature{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+}
+
+
+
+/*=================== contact page ===================*/
+#mall-image{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+#mall-image img{
+    width: 100%;
+    height: 100%;
+}
+
+#contact-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    height: 500px;
+    width: 80%;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+#direction{
+    height: 500px;
+}
+#direction img{
+    width: 100%;
+    height: 100%;
+}
+
+#contact-info{
+    padding-left: 20px;
+}
+#contact-email{
+    background-color: #46606F;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+}
+#contact-email h4{
+   color: #ffffff;
+    padding-bottom: 5px;
+}
+#contact-email:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+}
+#contact-email img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 20px;
+}
+
+
+/*===================== feedback page =============*/
+#feedback-form form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#feedback-form form input{
+    width: 95%;
+    padding-bottom: 0;
+    padding: 10px;
+    margin-top: 10px;
+}
+#feedback-form form textarea{
+    width: 95%;
+    padding-bottom: 0;
+    padding: 10px;
+    margin-top: 10px;
+    height: 200px;
+}
+#feedback-form form a{
+    display: block;
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color:forestgreen;
+    padding-top: 12px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/*================== message page =================*/
+#message{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    color: forestgreen;
+}
+#message h1{
+    font-size: 75px;
+}
+
+/*================== single movies page =================*/
+#movie-title{
+    text-align: center;
+    color: turquoise;
+}
+#movie-info-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#movie-image{
+    width: 90%;
+    height: 90%;
+    background: red;
+    float: right;
+}
+#movie-image img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+#movie-description h2{
+    color: #05D8EA;
+}
+#movie-description span{
+    font-size: 16px;
+    color: #FAA72F;
+}
+
+/*==================== single store page ================*/
+#store-image img{
+    height: 150px !important;
+}
+
+#single-store-content img{
+    width: 30%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
